@@ -39,12 +39,12 @@ const About = () => {
           viewport={{once:false, amount:0.4}} 
           className="xl:max-w-[470px]">
             <h2 className="h2 mb-[38px]">About Hotely</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus rerum ipsum nulla repudiandae expedita veniam rem? Sequi recusandae aut molestias a nostrum corporis, est, molestiae possimus, animi dicta accusamus.</p>
+            <p>At Hotely, we redefine the essence of opulence, offering an unparalleled fusion of sophistication and warmth. Nestled amidst breathtaking landscapes and iconic cityscapes, our collection of exquisite accommodations promises an unforgettable retreat for every traveler.</p>
             <div className="my-5 xl:my-10 min-h-[35px]">
 
               {inView && <Stats/>}
             </div>
-            <p className="mb-10">lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore perferendis reiciendis accusantium nesciunt quas totam quam nam a dignissimos!</p>
+            <p className="mb-10">Step into a world of refined elegance as you explore our meticulously curated selection of rooms and suites, each designed to indulge your senses and elevate your stay. Whether you seek a tranquil oasis for relaxation or a vibrant hub for exploration, Hotely has the perfect sanctuary tailored to your desires.</p>
             <Button variant='accent'>Explore More</Button>
           </motion.div>
         </div>

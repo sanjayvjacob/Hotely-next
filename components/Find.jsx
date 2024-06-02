@@ -46,7 +46,7 @@ const Find = () => {
           initial='hidden'
           whileInView='show'
           viewport={{once: false, amount: 0.2}}
-          className="max-w-[638px] mx-auto mb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sed facere expedita! Est doloremque facilis ex, minima quas accusantium.</motion.p>
+          className="max-w-[638px] mx-auto mb-8">Unwind and rejuvenate in style at our state-of-the-art wellness facilities, where holistic treatments and personalized services cater to your every need. From invigorating spa therapies to revitalizing fitness sessions, Hotely offers a sanctuary for mind, body, and soul.</motion.p>
           <motion.div 
             variants={fadeIn('up',0.6)}
             initial='hidden'

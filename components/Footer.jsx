@@ -27,7 +27,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="text-lg leasing-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quae nulla, dicta officia sit enim eius.
+              Discover the allure of Hotely and embark on a journey of unparalleled luxury and hospitality. Your exquisite escape awaits.
               </p>
             </div>
             {/* navigation & contact */}
@@ -54,7 +54,7 @@ const Footer = () => {
               <div className="flex-1">
               <h4 className="h4 mb-6">Contact Us</h4>
               <ul className="flex flex-col gap-y-6 text-lg">
-                <li>+44 12345 67890</li>
+                <li>12345 67890</li>
                 <li>info@hotely.com</li>
                 <li>hotely.com</li>
               </ul>

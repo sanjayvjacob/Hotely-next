@@ -24,7 +24,7 @@ const Featured = () => {
           Book an awesome room in less than 1 minute.
         </h2>
         <p className='flex-1 text-soft_green leading-loose'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium beatae error molestias sapiente quas et ad. Tempore vel fuga ab, velit cumque veritatis excepturi suscipit hic minima similique, odio reprehenderit?
+        Whether you're traveling for business or pleasure, our comprehensive array of amenities and services ensure a seamless and unforgettable experience. From impeccable concierge services to cutting-edge event spaces, Hotely sets the stage for success and celebration.
         </p>
       </div>
     </motion.section>
