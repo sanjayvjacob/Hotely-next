@@ -1,4 +1,4 @@
-<div align='center'><img src='footer/logo.svg'/><h1>Hotely</h1></div>
+<div align='center'><img src='./public/footer/logo.svg'/><h1>Hotely</h1></div>
 
 <h2>About the project</h2>
 
@@ -16,15 +16,15 @@
 <br>
 <div align='center'>
 Homepage
-<img src='/screenshot/page1.png'/>
+<img src='./public/screenshot/page1.png'/>
 About Us
-<img src='/screenshot/page2.png'/>
+<img src='./public/screenshot/page2.png'/>
 Recommendation
-<img src='/screenshot/page3.png'/>
+<img src='./public/screenshot/page3.png'/>
 Find Hotel
-<img src='/screenshot/page4.png'/>
+<img src='./public/screenshot/page4.png'/>
 Testimonials
-<img src='/screenshot/page5.png'/>
+<img src='./public/screenshot/page5.png'/>
 Contact Us
-<img src='/screenshot/page6.png'/>
+<img src='./public/screenshot/page6.png'/>
 </div>
