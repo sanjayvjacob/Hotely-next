@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image"
 import Stats from "./Stats"
+import aboutImage from "/public/about/img2.png"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/variants"
 import { useInView } from "react-intersection-observer"
@@ -26,7 +27,7 @@ const About = () => {
           viewport={{once:false, amount:0.4}}
           className="flex-1 relative">
             <Image 
-            src={'/public/about/img2.png'}
+            src= {aboutImage}
             width={559}
             height={721}
             alt=""/>
