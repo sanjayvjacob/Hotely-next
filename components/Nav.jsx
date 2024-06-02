@@ -24,7 +24,7 @@ const Nav = ({containerStyles, listStyles}) => {
     <nav className={`${containerStyles}`}>
       <ul className={`${listStyles}`}>{links.map((link, index)=>{
         return (
-          <li>
+          <li key={index}>
             <Link href={link.path}>{link.pathname}</Link>
           </li>
         )
