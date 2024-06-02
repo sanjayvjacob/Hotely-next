@@ -4,11 +4,14 @@ import {Autoplay} from 'swiper/modules'
 import 'swiper/css'
 import { Button } from "./ui/button"
 import Image from "next/image"
+import hotelImg1 from "/public/recommendation/hotel-1.png"
+import hotelImg2 from "/public/recommendation/hotel-2.png"
+import hotelImg3 from "/public/recommendation/hotel-3.png"
 
 const recommendationData = [
   {
     name: 'Shanghai Hotel',
-    image: '/recommendation/hotel-1.png',
+    image: hotelImg1,
     location: 'Shanghai, China',
     desc: 'Set in the 88-story Jin Mao Tower in the financial district, this swanky hotel with views of the Huangpu River is 3 minutes walk from Shanghai World Financial Center and 4 km from the Shanghai Museum.',
     price: 40,
@@ -19,7 +22,7 @@ const recommendationData = [
   },
   {
     name: 'Peaks Lodge',
-    image: '/recommendation/hotel-2.png',
+    image: hotelImg2,
     location: 'Aspen, USA',
     desc: 'Along the Trans–Canada Highway, this laid-back hotel backed by mountains is 7 km from the Revelstoke Railway Museum and 13 km from skiing at the Revelstoke Mountain Resort.',
     price: 80,
@@ -30,7 +33,7 @@ const recommendationData = [
   },
   {
     name: 'Tropical Oasis Resort',
-    image: '/recommendation/hotel-3.png',
+    image: hotelImg3,
     location: 'Bali, Indonesia',
     desc: '3.7 miles from University of Miami in Miami, Tropical Oasis Resort Miami Home features accommodations with access to a hot tub.',
     price: 120,

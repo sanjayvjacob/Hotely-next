@@ -6,16 +6,18 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 import { motion } from "framer-motion"
 import { fadeIn } from "@/variants"
+import reviewImg1 from "/public/testimonials/img-1.png"
+import reviewImg2 from "/public/testimonials/img-2.png"
 
 const testimonialData = [
   {
-    img: '/testimonials/img-1.png',
+    img: reviewImg1,
     message: '"I had an amazing experience with Hotely. Their customer service team was prompt and very helpful. They resolved my issue within minutes, and I couldnt be happier with the service I received."',
     personName: 'Robert Rene',
     location: 'Singapore',
   },
   {
-    img: '/testimonials/img-2.png',
+    img: reviewImg2,
     message: '"Hotely went above and beyond to ensure I was satisfied with my purchase. Their support team was friendly and knowledgeable. Highly recommend!"',
     personName: 'Peter Parker',
     location: 'Brooklyn',

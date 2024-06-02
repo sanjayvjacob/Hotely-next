@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import featuredImg from "/public/featured/icon.svg"
 import { motion } from 'framer-motion'
 import { fadeIn } from '@/variants'
 
@@ -14,7 +15,7 @@ const Featured = () => {
       <div className='flex flex-col xl:flex-row items-center h-full gap-x-[30px] text-center xl:text-left'>
         <Image
         className='xl:mr-[50px]'
-        src='/featured/icon.svg'
+        src={featuredImg}
         width={73}
         height={84}
         alt=''

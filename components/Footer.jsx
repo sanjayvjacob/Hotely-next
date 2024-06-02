@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image"
 import Link from "next/link"
+import footerImg from "/public/footer/logo.svg"
 import Socials from "./Socials"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/variants"
@@ -18,7 +19,7 @@ const Footer = () => {
             <div className="xl:w-[470px] mb-6 xl:mb-0">
               <Link href='/'>
                 <Image
-                src='/footer/logo.svg'
+                src={footerImg}
                 width={80}
                 height={36}
                 alt=''

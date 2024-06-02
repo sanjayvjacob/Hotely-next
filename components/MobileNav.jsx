@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Nav from "./Nav"
 import Socials from "./Socials"
+import footerImg from "/public/footer/logo.svg"
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet"
 import { Menu } from "lucide-react"
 
@@ -16,7 +17,7 @@ const MobileNav = () => {
         <div className="flex flex-col justify-between h-full p-12">
           <Link href='/' className='mb-24'>
           <Image 
-          src='/footer/logo.svg'
+          src={footerImg}
           width={90}
           height={46}
           alt=""

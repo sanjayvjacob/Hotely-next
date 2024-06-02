@@ -1,27 +1,31 @@
 'use client'
 import Image from "next/image"
+import hotelImg1 from '/public/find/hotel-1.png'
+import hotelImg2 from '/public/find/hotel-2.png'
+import hotelImg3 from '/public/find/hotel-3.png'
+import hotelImg4 from '/public/find/hotel-4.png'
 import { Button } from "./ui/button"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/variants"
 
 const hotelData = [
   {
-    image: '/find/hotel-1.png',
+    image: hotelImg1,
     name: 'Hotel De Luna',
     location: 'Singapore',
   },
   {
-    image: '/find/hotel-2.png',
+    image: hotelImg2,
     name: 'Ina Tretes Hotel',
     location: 'Singapore',
   },
   {
-    image: '/find/hotel-3.png',
+    image: hotelImg3,
     name: 'Delight Hotel',
     location: 'Singapore',
   },
   {
-    image: '/find/hotel-4.png',
+    image: hotelImg4,
     name: 'Mercusuar Hotel',
     location: 'Singapore',
   },
