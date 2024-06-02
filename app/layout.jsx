@@ -6,8 +6,8 @@ const openSans = Open_Sans({
   subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hotel",
-  description: "Welcome to Hotel",
+  title: "Hotely",
+  description: "Welcome to Hotely",
 };
 
 export default function RootLayout({ children }) {
