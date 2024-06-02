@@ -18,7 +18,7 @@ const SearchBox = () => {
     initial='hidden'
     whileInView={'show'}
     viewport={{once: false, amount:0}}
-    className='w-full max-w-[488px] bg-white max-h-max flex flex-col border border-outline rounded-[20px] p-10'>
+    className='w-full max-w-[488px] bg-white max-h-max flex flex-col border border-outline rounded-[20px] p-10 mb-20'>
       <div className='mb-[20px]'>
         <Label htmlFor='destination'>
 Where are you going?
