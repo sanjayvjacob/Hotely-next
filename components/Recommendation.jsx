@@ -7,7 +7,7 @@ import Image from "next/image"
 import hotelImg1 from "/public/recommendation/hotel-1.png"
 import hotelImg2 from "/public/recommendation/hotel-2.png"
 import hotelImg3 from "/public/recommendation/hotel-3.png"
-import patternImg from "/public//recommendation/pattern.svg"
+import patternImg from "/public/recommendation/pattern.svg"
 
 const recommendationData = [
   {
