@@ -6,15 +6,15 @@ const links = [
     pathname: 'Home'
   },
   {
-    path: '/',
+    path: '/find',
     pathname: 'Find Hotel'
   },
   {
-    path: '/',
+    path: '/about',
     pathname: 'About Us'
   },
   {
-    path: '/',
+    path: '/contact',
     pathname: 'Contact Us'
   },
 ]
