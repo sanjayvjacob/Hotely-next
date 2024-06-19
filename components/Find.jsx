@@ -12,22 +12,22 @@ const hotelData = [
   {
     image: hotelImg1,
     name: 'Hotel De Luna',
-    location: 'Singapore',
+    location: 'Paris',
   },
   {
     image: hotelImg2,
     name: 'Ina Tretes Hotel',
-    location: 'Singapore',
+    location: 'Tokyo',
   },
   {
     image: hotelImg3,
     name: 'Delight Hotel',
-    location: 'Singapore',
+    location: 'London',
   },
   {
     image: hotelImg4,
     name: 'Mercusuar Hotel',
-    location: 'Singapore',
+    location: 'Cairo',
   },
 ]
 const Find = () => {

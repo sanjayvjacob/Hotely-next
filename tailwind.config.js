@@ -23,8 +23,8 @@ module.exports = {
       white: "#fff",
       black: "#273029",
       soft_green: {
-        DEFAULT: "#85c7dc",
-        secondary: "#f3f9fb",
+        DEFAULT: "#E0A587",
+        secondary: "#FAF0EB",
       },
       grey: {
         DEFAULT: "#888",
@@ -52,8 +52,7 @@ module.exports = {
       },
     },
     backgroundImage: {
-      hero: "url('/hero/bg.png')",
-      hero2: "url('/hero/bg-2.png')",
+      hero: "url('/hero/bg.jpg')",
     },
   },
   plugins: [require("tailwindcss-animate")],

@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex flex-col xl:flex-row bg-white p-8 rounded-xl min-h-[394px] xl:p-20 xl:-translate-y-36 xl:gap-x-12">
             <div className="xl:w-[470px] mb-6 xl:mb-0">
               <Link href='/'>
-               <p className="text-[#85c5dc] text-2xl font-bold">BookMyStay</p>
+               <p className="text-soft_green text-2xl font-bold">BookMyStay</p>
               </Link>
               <p className="text-lg leasing-9">
               Discover the allure of BookMyStay and embark on a journey of unparalleled luxury and hospitality. Your exquisite escape awaits.

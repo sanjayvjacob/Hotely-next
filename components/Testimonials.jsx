@@ -13,18 +13,16 @@ const testimonialData = [
   {
     img: reviewImg1,
     message: '"I had an amazing experience with BookMyStay. Their customer service team was prompt and very helpful. They resolved my issue within minutes, and I couldnt be happier with the service I received."',
-    personName: 'Robert Rene',
-    location: 'Singapore',
+    personName: 'Kaley Ronnin',
+    location: 'England',
   },
   {
     img: reviewImg2,
     message: '"BookMyStay went above and beyond to ensure I was satisfied with my purchase. Their support team was friendly and knowledgeable. Highly recommend!"',
-    personName: 'Peter Parker',
-    location: 'Brooklyn',
+    personName: 'Emily James',
+    location: 'Ireland',
   },
 ]
-
-
 
 const Testimonials = () => {
   return (
@@ -54,9 +52,9 @@ const Testimonials = () => {
             height={470}
             quality={100}
             alt=''
-            className='hidden xl:flex'
+            className='hidden xl:flex rounded-lg'
             />
-            <div className="flex-1 bg-white/20 text-white p-12">
+            <div className="flex-1 bg-white/20 text-white p-12 rounded-lg">
               <p className="text-lg leading-9 mb-8">{slide.message}</p>
               <p className="text-xl font-bold ">{slide.personName}</p>
               <p>{slide.location}</p>

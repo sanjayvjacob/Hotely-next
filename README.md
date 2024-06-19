@@ -16,7 +16,7 @@
 <br>
 <div align='center'>
 Homepage
-<img src='./public/screenshot/page1.png'/>
+<!-- <img src='./public/screenshot/page1.png'/>
 About Us
 <img src='./public/screenshot/page2.png'/>
 Recommendation
@@ -26,5 +26,5 @@ Find Hotel
 Testimonials
 <img src='./public/screenshot/page5.png'/>
 Contact Us
-<img src='./public/screenshot/page6.png'/>
+<img src='./public/screenshot/page6.png'/> -->
 </div>

@@ -13,7 +13,7 @@ const GuestSelect = () => {
   return (
     <Select>
       <SelectTrigger className='w-full'>
-        <SelectValue placeholder='How many quests ?'/>
+        <SelectValue placeholder='How many guests ?'/>
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>
