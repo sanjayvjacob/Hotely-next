@@ -1,8 +1,8 @@
-<div align='center'><img src='./public/footer/logo.svg'/><h1>Hotely</h1></div>
+<div align='center'><img src='./public/icon.jpeg'/><h1>BookMyStay</h1></div>
 
 <h2>About the project</h2>
 
-  <p>Hotely is hotel booking website where user can book hotel around the world. At Hotely, we redefine the essence of opulence, offering an unparalleled fusion of sophistication and warmth. Nestled amidst breathtaking landscapes and iconic cityscapes, our collection of exquisite accommodations promises an unforgettable retreat for every traveler.</p>
+  <p>BookMyStay is hotel booking website where user can book hotel around the world. At BookMyStay, we redefine the essence of opulence, offering an unparalleled fusion of sophistication and warmth. Nestled amidst breathtaking landscapes and iconic city scapes, our collection of exquisite accommodations promises an unforgettable retreat for every traveler.</p>
 
 👉 Live Demo: <a href='https://hotely-next.vercel.app/'>Live Demo</a>
 
