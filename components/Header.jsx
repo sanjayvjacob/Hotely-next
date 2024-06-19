@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <Link href='/'>
-            <h1 className="text-2xl font-bold text-white">Hotely</h1>
+            <h1 className="text-2xl font-bold text-white">BookMyStay</h1>
           </Link>
           <div className="hidden xl:flex">
             <div className="flex items-center gap-x-12">

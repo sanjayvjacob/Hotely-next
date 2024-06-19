@@ -1,7 +1,6 @@
 'use client'
 import Image from "next/image"
 import Link from "next/link"
-import footerImg from "/public/footer/logo.svg"
 import Socials from "./Socials"
 import { motion } from "framer-motion"
 import { fadeIn } from "@/variants"
@@ -18,16 +17,10 @@ const Footer = () => {
           <div className="flex flex-col xl:flex-row bg-white p-8 rounded-xl min-h-[394px] xl:p-20 xl:-translate-y-36 xl:gap-x-12">
             <div className="xl:w-[470px] mb-6 xl:mb-0">
               <Link href='/'>
-                <Image
-                src={footerImg}
-                width={80}
-                height={36}
-                alt=''
-                className='mb-2'
-                />
+               <p className="text-[#85c5dc] text-2xl font-bold">BookMyStay</p>
               </Link>
               <p className="text-lg leasing-9">
-              Discover the allure of Hotely and embark on a journey of unparalleled luxury and hospitality. Your exquisite escape awaits.
+              Discover the allure of BookMyStay and embark on a journey of unparalleled luxury and hospitality. Your exquisite escape awaits.
               </p>
             </div>
             {/* navigation & contact */}
@@ -55,8 +48,8 @@ const Footer = () => {
               <h4 className="h4 mb-6">Contact Us</h4>
               <ul className="flex flex-col gap-y-6 text-lg">
                 <li>12345 67890</li>
-                <li>info@hotely.com</li>
-                <li>hotely.com</li>
+                <li>info@bookmystay.com</li>
+                <li>bookmystay.com</li>
               </ul>
               </div>
             </div>
