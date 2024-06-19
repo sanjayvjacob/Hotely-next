@@ -1,4 +1,4 @@
-<div align='center'><img src='./public/icon.jpeg'/><h1>BookMyStay</h1></div>
+<div align='center'><img src='./public/icon.jpeg' width={80}/><h1>BookMyStay</h1></div>
 
 <h2>About the project</h2>
 
